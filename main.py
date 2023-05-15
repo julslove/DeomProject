@@ -16,7 +16,22 @@ def main():
     is_palindrom(s3)
     is_palindrom(s4)
     is_palindrom(s5)
-    
+
+
+#call  ispalindrom() from main
+def mainFunc():
+    s1 = "saippuakivikauppias"
+    s2 = "Malayalam"
+    s3 = "BaTHTuB"
+    s4 = "ontotonto"
+    s5 = "detartrated"
+
+    print(isPalindrom(s1))
+    print(isPalindrom(s2))
+    print(isPalindrom(s3))
+    print(isPalindrom(s4))
+    print(isPalindrom(s5))
+
     
     print("Congratulations on completing the Git course for beginners!")
 
