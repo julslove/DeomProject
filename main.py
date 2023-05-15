@@ -1,7 +1,7 @@
 """
 This file contains call functions to final project of Git course for beggineers.
 """
-
+from etty_dir.etty_palindrom import isPalindrom
 from liad_dir.liad_palindrom import is_palindrom
 
 def main():
@@ -37,3 +37,4 @@ def mainFunc():
 
 if __name__ == "__main__":
     main()
+    mainFunc()

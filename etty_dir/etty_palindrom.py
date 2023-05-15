@@ -7,12 +7,6 @@ def isPalindrom(s):
     return s.lower() == s[::-1].lower()
 
 
-result = isPalindrom(s)
-
-if result:
-    print("True")
-else:
-    print("False")
 
 
 
